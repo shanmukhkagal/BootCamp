@@ -28,8 +28,15 @@ public class EmpWage {
 	               System.out.println(salary);
 
 	               break;
+				
+		case 3:System.out.println("Emp 20 days salary")
 
-	        case 3:System.out.println("full salary");
+                       Salary=wage*days;
+	               System.out.println(salary);
+
+                       break;		
+
+	        case 4:System.out.println("full salary");
 
 	              for(int i=1;i<100;i++)
 	              {
