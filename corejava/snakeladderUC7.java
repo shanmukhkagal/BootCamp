@@ -2,9 +2,10 @@
 {
      public static void main(String[] args) {
            int snake_position = 25;
-           int snake_position1=55;
-           int player_position1=0;
-           int player_position2=0;
+           int snake_position1 = 55;
+           int player_position1 = 0;
+           int player_position2 = 0;
+	   int ladder_position = 30;
           
 	     while (player_position1<=100) {
         	   int random_check1 = (int)Math.floor(Math.random()* 10)%6;
